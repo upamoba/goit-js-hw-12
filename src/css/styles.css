@@ -114,7 +114,14 @@ body {
 .load-more {
   display: block;
   margin: 20px auto 20px;
-;
+  padding: 10px 20px;
+  background-color: #4e75ff;
+}
+.load-more:hover {
+  background-color: #ffc96c;
+}
+.load-more:focus {
+  background-color: #ff6c6c;
 }
 
 .loader{
